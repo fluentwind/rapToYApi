@@ -6,7 +6,9 @@ Node.JS Projects
 ### 使用方法：
 将Rap项目导出json文件，运行
 ``` bash
-node index.js [fileNmae]
-node index.js ./rap.json
+node src\index.js [fileNmae]
+npm run convert src\index.js [fileNmae]
+node src\index.js ./rap.json
+npm run convert ./rap.json
 ```
 随后生成yapi.json文件，选择一个YApi项目-数据管理-导入json-完全覆盖即可。
