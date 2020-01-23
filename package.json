@@ -1,0 +1,18 @@
+{
+  "name": "raptoyapi",
+  "version": "1.0.0",
+  "description": "A tool fro convert Rap Api to YApi.",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node src/index.js"
+  },
+  "keywords": [
+    "api",
+    "converter",
+    "yapi",
+    "rap"
+  ],
+  "author": "fluentwind",
+  "license": "ISC",
+  "dependencies": {}
+}
